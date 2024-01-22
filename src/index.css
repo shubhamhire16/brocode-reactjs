@@ -1,0 +1,96 @@
+*{
+  background-color: #212121;
+  font-family: Arial, sans-serif;
+  color: hsl(0, 0%, 87%);
+}
+html, body{
+  margin: 0;
+  padding: 0;
+}
+.card{
+  border: 1px solid #40404038;
+  border-radius: 10px;
+  box-shadow: 5px 5px 5px hsla(0, 0%, 43%, 0.18);
+  padding: 20px;
+  margin: 10px;
+  text-align: center;
+  max-width: 250px;
+  display: inline-block;
+}
+
+.card .profile-image{
+  max-width: 60%;
+  height: auto;
+  border-radius: 50%;
+  margin-bottom: 10px;
+}
+
+.card .card-title{
+  font-family: Arial, sans-serif;
+  margin: 0;
+  color: hsl(0, 0%, 87%)
+}
+
+h1{
+  font-family: Arial, sans-serif;
+  color: rgb(81, 139, 255);
+  text-align: center;
+}
+.group{
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 50px;
+}
+.group p{
+  color: hs1(0, 0%, 30%);
+}
+
+.FBI-Log-Message{
+  text-align: center;
+  background-color: rgb(21, 255, 0);
+  padding: 5px;
+  margin: 0px 170px;
+  border: none;
+  border-radius: 5px;
+  color: #212121;
+}
+.No-FBI-MEssage{
+  text-align: center;
+  background-color: rgb(255, 25, 0);
+  padding: 5px;
+  margin: 0px 170px;
+  border: none;
+  border-radius: 5px;
+  color: #212121;
+}
+
+.crime-city-list ul li{
+  min-width: 150px;
+  text-align: center;
+  list-style-type: none;
+  background-color: rgb(210, 162, 255);
+  padding: 20px;
+  color: #ffffff;
+  /* margin: 0px 200px; */
+  margin: auto;
+  border-radius: 5px;
+  margin-bottom: 5px;
+  font-size: 1.4rem;
+  font-weight: 700;
+  width: 300px;
+}
+.crime-city-list ul{
+  padding-inline-start: 0px;
+}
+
+
+.info-button{
+  border: none;
+  background-color: rgb(92, 107, 107);
+  padding: 10px;
+  border-radius: 5px;
+  font-size: 1.01rem;
+  cursor: pointer;
+}
